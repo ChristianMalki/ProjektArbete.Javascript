@@ -1,0 +1,27 @@
+{
+  "name": "moviebackend",
+  "version": "1.0.0",
+  "description": "A backend for the movie app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "start-prod": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/jwt": "^6.4.0",
+    "@fastify/websocket": "^7.1.1",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.10.2",
+    "fastify-plugin": "^4.3.0",
+    "mongoose": "^6.8.0",
+    "node-fetch": "^3.3.0",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-plugin-react": "^7.31.10"
+  }
+}
